@@ -19,3 +19,15 @@ dice2 = random.randint(1, 6)
 
 print(dice1)
 print(dice2)
+
+
+#functions with arguments - celcius to fahrenheit calculator
+celsius = int(input())
+
+def conv(c):
+    #your code goes here
+    val = 9/5 * c  + 32
+    return val
+
+fahrenheit = conv(celsius)
+print(fahrenheit)
