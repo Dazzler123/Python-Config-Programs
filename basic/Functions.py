@@ -1,4 +1,3 @@
-
 # returning from functions - hashtag generator
 s = input()
 def hashtagGen(text):
@@ -7,7 +6,7 @@ def hashtagGen(text):
     return "#" + s1
 
 print(hashtagGen(s))
-
+# ////////////////////////////////////
 
 # random module - dice number generator
 import random
@@ -19,7 +18,7 @@ dice2 = random.randint(1, 6)
 
 print(dice1)
 print(dice2)
-
+# ////////////////////////////////////
 
 #functions with arguments - celcius to fahrenheit calculator
 celsius = int(input())
@@ -31,3 +30,4 @@ def conv(c):
 
 fahrenheit = conv(celsius)
 print(fahrenheit)
+# /////////////////////////////////////
