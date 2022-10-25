@@ -23,3 +23,14 @@ finally:
 	# and finally here
 	print("Have a good day")
 # //////////////////////////////////////////////////////////
+
+
+# File I/O ---> Text file reading program
+file = open("filename.txt")
+n = int(input())
+
+#your code goes here
+resul = file.readlines()
+print(resul[n])
+file.close()
+# //////////////////////////////////////////////////////////
