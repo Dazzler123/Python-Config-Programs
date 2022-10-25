@@ -46,6 +46,9 @@ file.close()
 
 file= open("names.txt", "r")
 #output the content of file in console
-print(file.readline())
+resul = file.readlines()
+print(resul[1])
+print(resul[2])
+print(resul[3])
 file.close()
 # //////////////////////////////////////////////////////////
